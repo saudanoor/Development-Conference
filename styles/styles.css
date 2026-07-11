@@ -358,3 +358,144 @@ button{
     padding-bottom: 50px;
 
 }
+
+
+/* ==========================================================================
+   AI CHALLENGE SECTION - DEVCONF TRACKS & HACKATHON
+   ========================================================================== */
+.tracks-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tracks-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tracks-section .section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.tracks-section .section-subtitle {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 48px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tracks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    align-items: stretch;
+}
+
+.padd{
+    padding: 0 20px;
+}
+
+/* Base Track Card matching Speaker & Pricing card structure */
+.track-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 40px 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.track-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Card Accent Variant matching the "Pro" center pricing plan */
+.track-card.dark-card {
+    background-color: #0b192c;
+    border-color: #0b192c;
+    color: #ffffff;
+}
+
+.track-icon {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.track-tag {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.track-tag.tag-blue {
+    color: #2563eb;
+}
+
+.track-card.dark-card .track-tag.tag-blue {
+    color: #60a5fa;
+}
+
+.track-name {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+    line-height: 1.3;
+}
+
+.track-card:not(.dark-card) .track-name {
+    color: #111827;
+}
+
+.track-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.track-card:not(.dark-card) .track-desc {
+    color: #4b5563;
+}
+
+.track-card.dark-card .track-desc {
+    color: #9ca3af;
+}
+
+/* Primary Button Styling matching the Navigation/Hero Button */
+.track-btn.btn-primary {
+    display: inline-block;
+    text-align: center;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+}
+
+.track-btn.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tracks-grid {
+        grid-template-columns: 1fr;
+    }
+}
