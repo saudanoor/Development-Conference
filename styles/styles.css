@@ -306,3 +306,36 @@ nav a{
 
 }
 
+
+.footer-color{
+    background-color: #0D1B2A;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.footer-section-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+ a{
+    text-decoration: none;
+}
+
+.footer-section2{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   
+}
+
+button{
+    cursor: pointer;
+}
