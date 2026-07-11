@@ -117,7 +117,7 @@ nav a{
 
 .banner{
     background-image: url("../assets/banner.jpg");
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     
 }
