@@ -25,7 +25,14 @@ a{
 .black-medium{
     color: #0D1B2A;
     font-size: 55px;
+    font-weight: 600;
 
+}
+
+.white-medium2{
+  color:#FFFFFF;
+    font-size: 55px;
+    font-weight: 600;
 }
 
 .black-medium2{
@@ -40,10 +47,27 @@ a{
 
 }
 
+
 .white-big{
     color: #FFFFFF;
     font-size: 80px;
      text-align: center;
+
+}
+
+.light-blue{
+    color: #60A5FA;
+    font-size: 18px;
+
+}
+
+
+
+.white-medium{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600
+     
 
 }
 
@@ -159,3 +183,126 @@ nav a{
     display: flex;
     gap: 30px;
 }
+
+
+.pricing-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.line{
+    width: 250px;
+    height: 1px;
+    background-color:#E5E7EB;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+    
+    margin-right: 20px;
+    
+}
+
+.price-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 45px;
+ 
+
+}
+
+.card-upper li{
+    list-style: none;
+    
+}
+
+.card-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+   
+    
+}
+
+.price-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.price-black{
+    background-color: #333333;
+}
+
+.price-card1{
+    border: 2px solid #E5E7EB;
+    width: 270px;
+    height: 450px;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-top: 40px;
+
+}
+
+.card-mid{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+     padding-top: 15px;
+}
+
+.card-mid li::marker {
+    color: #2563eb;
+}
+
+.button1{
+    background-color: #FFFFFF ;
+    color:   #1D4ED8;
+    padding: 10px;
+    border: #1D4ED8 solid 1px;
+    border-radius: 7px;
+    width: 250px;
+    margin-right: 17px;
+}
+
+.button22{
+   background-color: #1D4ED8 ;
+    color:   #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    width: 250px;
+    margin-right: 17px;
+}
+
+.button2{
+    background-color: #1D4ED8 ;
+    color:   #FFFFFF;
+    padding: 10px 20px;
+    margin-right: 17px;
+    margin-top: 32px;
+    border: none;
+    border-radius: 7px;
+    width: 250px;
+}
+
+.button3{
+    background-color: #FFFFFF ;
+    color:   black;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 7px;
+    width: 250px;
+    margin-right: 17px;
+}
+
+.button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
